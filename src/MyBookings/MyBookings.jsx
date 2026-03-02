@@ -18,11 +18,8 @@ export default function MyBookings() {
     setFilteredBookings(bookings);
   }, [bookings]);
 
-<<<<<<< HEAD
-=======
   //Separate page/component to render all the booked hospitals of user alogwith chosen date and time slot
   //It utilises HospitalCard component to generate the cards with data
->>>>>>> 7d093cb80a6c6993b25b30c46891f7cd4d75623b
   return (
     <>
       <NavBar />
@@ -77,10 +74,6 @@ export default function MyBookings() {
               width={{ xs: 1, md: "calc(100% - 384px)" }}
               mr="24px"
             >
-<<<<<<< HEAD
-=======
-                
->>>>>>> 7d093cb80a6c6993b25b30c46891f7cd4d75623b
               {filteredBookings.length > 0 &&
                 filteredBookings.map((hospital) => (
                   <HospitalCard
